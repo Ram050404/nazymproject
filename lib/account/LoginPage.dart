@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.all(24.0),
+            padding:  EdgeInsets.all(20.0),
             child: Column(
               children: [
                 const SizedBox(height: 20),
@@ -52,7 +52,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 20),
+                 SizedBox(height: 20),
                 // Login Card
                 Container(
                   decoration: BoxDecoration(
